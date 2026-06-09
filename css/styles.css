@@ -10969,3 +10969,11 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+body {
+    /* 原有的屬性保持不變，加入以下背景設定 */
+    background-color: #fff; /* 或者使用 var(--bs-body-bg) */
+
+    background-image: linear-gradient(to right, rgba(121, 79, 188, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(121, 79, 188, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
