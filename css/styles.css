@@ -10977,3 +10977,23 @@ body {
     linear-gradient(to bottom, rgba(121, 79, 188, 0.1) 1px, transparent 1px);
     background-size: 40px 40px;
 }
+
+
+感 */section.resume-section {
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    padding: 3rem;
+}
+
+
+img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+
+h2 {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
